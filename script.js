@@ -1,16 +1,16 @@
 // alert()
-const product = {
-  name: "rasel",
-  age: 25,
-  profeson: "developer",
-  country: "BD",
-};
+// const product = {
+//   name: "rasel",
+//   age: 25,
+//   profeson: "developer",
+//   country: "BD",
+// };
 
 // console.log(product.name);
 
-for (let name in product) {
-  // console.log(`key : ${name} value : ${product[name]}`);
-}
+// for (let name in product) {
+// console.log(`key : ${name} value : ${product[name]}`);
+// }
 
 // console.log(Object.keys(product))
 // console.log(Object.values(product))
@@ -20,24 +20,23 @@ for (let name in product) {
 // const {name, age, profeson, country} = product;
 // console.log(name, age, profeson, country)
 
-const friend = ["sokina", "jorina", "morjina"];
+// const friend = ["sokina", "jorina", "morjina"];
 
-const [fast, second, last] = friend;
+// const [fast, second, last] = friend;
 // console.log(fast,second, last)
 
 // const myName = () => {
 //   console.log("okkkk");
 // };
 
-let numbers = [20, 50, 6, 5, 56, 1, 5, 3, 5];
+// let numbers = [20, 50, 6, 5, 56, 1, 5, 3, 5];
 
 // console.log(Math.max(...numbers))
 
 // arrow function
-let add = (a, b) => {
-  return a + b;
-};
-
+// let add = (a, b) => {
+//   return a + b;
+// };
 
 // var lengthOfLastWord = function(s) {
 //   const ppp = s.split(" ");
@@ -48,17 +47,44 @@ let add = (a, b) => {
 
 // console.log(lengthOfLastWord('hello world'))
 
+// let arr = {
+//   name: 'jolil',
+//   age: 30,
+//   profeson: 'probashi'
+// }
 
-let arr = {
-  name: 'jolil', 
-  age: 30,
-  profeson: 'probashi'
-}
+// const {name, age, profeson} = arr;
+// console.log(name, age)
 
-const {name, age, profeson} = arr;
-console.log(name, age)
+// let friends = ['rsel', 'kholil'];
+// const newFriends = ['hero amal', ...friends];
+// const [frist, secent] = friends;
+// console.log(newFriends)
 
-let friends = ['rsel', 'kholil'];
-const newFriends = ['hero amal', ...friends];
-const [frist, secent] = friends;
-console.log(newFriends)
+// const rasel = {
+//   name: "rasel",
+//   age: 25,
+//   profeson: "developer",
+//   country: "BD",
+//   details:{
+//     marrid: 'yes',
+
+//   }
+// };
+
+// console.log(rasel['profeson'])
+
+let arr = [2, 5, 4, 6, 4, 3, 1, 8];
+
+arr.forEach(Number=>{
+  console.log(Number+Number)
+})
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// const newArray = arr.map(Number => {
+//   Number + 1;
+//   console.log(Number)
+// })
